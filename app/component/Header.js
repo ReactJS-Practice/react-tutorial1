@@ -4,9 +4,10 @@ import Title from './header/Title';
 
 export default class Header extends React.Component{
 	render(){
+		//console.log(this.props);
 		return (
 			<div>
-				<Title/>
+				<Title title={this.props.title}/>
 			</div>
 		);
 	}
