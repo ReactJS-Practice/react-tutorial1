@@ -1,16 +1,14 @@
-import React from "react";
+import React from 'react';
 
-export const Header =(props) =>{
-	return (
-		<nav className="navbar navbar-default">
-			<div className="container" >
-				<div className="navbar-header" >
-					<ul className="container" >
-						<li><a href="#">{props.homeLink}</a></li>
-					</ul>
-				</div>
+import Title from './header/Title';
+
+export default class Header extends React.Component{
+	render(){
+		return (
+			<div>
+				<Title/>
 			</div>
-		</nav>
-	);
+		);
+	}
 }
 
