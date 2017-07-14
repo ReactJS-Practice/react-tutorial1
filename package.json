@@ -4,10 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "webpack && webpack-dev-server --hot --inline",
     "babel": "babel",
     "webpack": "webpack ",
-    "test": "webpack && webpack-dev-server --hot --inline",
     "start": "webpack && webpack-dev-srv"
   },
   "author": "",
@@ -21,5 +20,9 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "history": "^1.17.0",
+    "react-router": "^4.1.1"
   }
 }
