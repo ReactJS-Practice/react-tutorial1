@@ -7,7 +7,7 @@
     "test": "webpack && webpack-dev-server --hot --inline",
     "babel": "babel",
     "webpack": "webpack ",
-    "start": "webpack && webpack-dev-srv"
+    "start": "webpack && webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
